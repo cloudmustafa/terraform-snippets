@@ -1,0 +1,44 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:DeleteAccessKey",
+                "secretsmanager:DescribeSecret",
+                "secretsmanager:PutSecretValue",
+                "secretsmanager:CreateSecret",
+                "iam:TagRole",
+                "secretsmanager:DeleteSecret",
+                "iam:CreateRole",
+                "iam:PutRolePolicy",
+                "iam:CreateUser",
+                "iam:CreateAccessKey",
+                "ecs:DeregisterTaskDefinition",
+                "ecs:UpdateService",
+                "iam:PassRole",
+                "ecs:CreateService",
+                "iam:DeleteRolePolicy",
+                "ecs:RegisterTaskDefinition",
+                "ecs:DescribeServices",
+                "iam:ListAccessKeys",
+                "iam:GetRole",
+                "dynamodb:PutItem",
+                "iam:DeleteUserPolicy",
+                "ecs:DeleteService",
+                "iam:DeleteRole",
+                "iam:DeleteUser",
+                "dynamodb:UpdateItem",
+                "secretsmanager:UpdateSecret",
+                "s3:PutObject",
+                "cloudformation:CreateStack",
+                "iam:PutUserPolicy",
+                "cloudformation:DeleteStack",
+                "iam:GetUser",
+                "secretsmanager:TagResource"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

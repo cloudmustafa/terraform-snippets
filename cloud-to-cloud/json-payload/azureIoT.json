@@ -1,0 +1,34 @@
+    {
+        "name": "subscription1",
+        "assets": [
+            {
+                "id": 1,
+                "name": "asset1",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "asset",
+                "tags": [
+                    "tag4",
+                    "tag5",
+                    "tag6"
+                ]
+            }
+        ],
+        "target": "AzureIoT",
+        "metadata": {
+            "hostname": "",
+            "deviceid": "",
+            "accesskey": "",
+            "sastoken": "",
+            "policyname": "",
+            "frequency": 0
+        },
+        "startTime": 231415454,
+        "endTime": 14513451345
+    }

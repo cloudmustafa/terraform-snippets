@@ -1,0 +1,20 @@
+@table pipoint
+	@ptclass classic
+	@mode create, t
+	@mode edit, t
+	@delimiter ;
+	@istr tag;instrumenttag;descriptor;pointsource;pointtype;compressing;location1;location2;location3;location4;location5
+	TAG,,,/PS,Float64,1,/ID,0,7,1,4
+
+
+
+	R.SAMPLE.1ST_STG_PMP_RUN_IND,,,NOVOS_PD584,Float64,1,0.2,28800,0,0.2,0.1,600,0,0.1,584,0,7,1,4
+
+
+	R.SAMPLE.2ND_STG_PMP_AUT_IND,,,NOV-POINTSOURCE,Float64,1,0.2,28800,0,0.2,0.1,600,0,0.1,5000,0,7,1,4
+	R.SAMPLE.2ND_STG_PMP_OFF_IND,,,NOV-POINTSOURCE,Float64,1,0.2,28800,0,0.2,0.1,600,0,0.1,5000,0,7,1,4
+	R.SAMPLE.2ND_STG_PMP_RUN_IND,,,NOV-POINTSOURCE,Float64,1,0.2,28800,0,0.2,0.1,600,0,0.1,5000,0,7,1,4
+	R.SAMPLE.3RD_STG_PMP_AUT_IND,,,NOV-POINTSOURCE,Float64,1,0.2,28800,0,0.2,0.1,600,0,0.1,5000,0,7,1,4
+	R.SAMPLE.3RD_STG_PMP_OFF_IND,,,NOV-POINTSOURCE,Float64,1,0.2,28800,0,0.2,0.1,600,0,0.1,5000,0,7,1,4
+	R.SAMPLE.3RD_STG_PMP_RUN_IND,,,NOV-POINTSOURCE,Float64,1,0.2,28800,0,0.2,0.1,600,0,0.1,5000,0,7,1,4
+	@ends
